@@ -137,9 +137,9 @@ if __name__ == "__main__":
     parser.add_argument('--config', type=str,
                         default='/Users/mike/PycharmProjects/pythonProjectsshtest/attention_test_arc/Configs/10_20151125_noon.yaml',
                         help='config_path')
-    parser.add_argument('--args.lw_0', type=int, default=1, help='loss weight of class0')
-    parser.add_argument('--args.lw_1', type=int, default=1, help='loss weight of class1')
-    parser.add_argument('--args.lw_2', type=int, default=1, help='loss weight of class2')
+    parser.add_argument('--lw_0', type=int, default=1, help='loss weight of class0')
+    parser.add_argument('--lw_1', type=int, default=1, help='loss weight of class1')
+    parser.add_argument('--lw_2', type=int, default=1, help='loss weight of class2')
 
     config = parser.parse_args()
 
